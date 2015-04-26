@@ -2,7 +2,7 @@
 
 Prevent form spam using in-browser proof-of-work (PoW)
 
-[Try WebPoW here](http://pixelspark.github.io/webpow/)
+[Try WebPoW here](http://pixelspark.github.io/webpow/pow.html)
 
 WebPoW page is a proof of concept of using Web Workers to calculate a so-called 'proof of work'. A proof of work is a solution to a mathematical problem that can only be solved using trial-and-error; showing that you have found the solution is proof that you have performed a certain amount of computation (in reality, sometimes you 'get lucky' and find a solution fast, and sometimes it takes much longer; the average amount of work required however can be decided upon in advance).
 
