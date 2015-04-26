@@ -10,6 +10,10 @@ Proofs of work can be used to prevent spam (e.g. on form submissions, e-mails, e
 
 Using Web Workers, the proof of work computation can be performed in standard browsers in the background, while efficiently utilizing available computing power. This demo will attempt to spawn four worker threads (most browsers seem to be able to saturate four cores with this).
 
+Use cases include:
+* Prevention of automated form spam (require a PoW on submit)
+* Prevention of website crawling (require an increasingly difficult PoW on each new request)
+
 ## Contact
 - Tommy van der Vorst
 - Twitter: [@tommyvdv](http://twitter.com/tommyvdv)
